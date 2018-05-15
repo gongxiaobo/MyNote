@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23AEB5EE-865A-48F1-AF17-9E105227A67D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConnectData</RootNamespace>
+    <AssemblyName>ConnectData</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJson, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\常用软件\Mysql安装\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyScript\DataBase\I_checkIsLoaded.cs" />
+    <Compile Include="MyScript\Messages\N_msg_forgetID.cs" />
+    <Compile Include="MyScript\Messages\N_msg_loadEnd.cs" />
+    <Compile Include="MyScript\Messages\N_msg_loadStart.cs" />
+    <Compile Include="MyScript\Messages\N_msg_prac_end.cs" />
+    <Compile Include="MyScript\Messages\N_msg_prac_start.cs" />
+    <Compile Include="MyScript\Messages\N_msg_prac_step.cs" />
+    <Compile Include="MyScript\Messages\N_msg_PT_step.cs" />
+    <Compile Include="MyScript\Messages\N_msg_reordID.cs" />
+    <Compile Include="MyScript\Messages\N_msg_SPT_end.cs" />
+    <Compile Include="MyScript\Messages\N_msg_SPT_start.cs" />
+    <Compile Include="MyScript\Messages\N_msg_studentExit.cs" />
+    <Compile Include="MyScript\Messages\N_msg_study_end.cs" />
+    <Compile Include="MyScript\Messages\N_msg_study_start.cs" />
+    <Compile Include="MyScript\Messages\N_msg_test_end.cs" />
+    <Compile Include="MyScript\Messages\N_msg_test_start.cs" />
+    <Compile Include="MyScript\Messages\N_msg_test_step.cs" />
+    <Compile Include="MyScript\SClient\A_Client.cs" />
+    <Compile Include="MyScript\DataBase\A_connectTodata.cs" />
+    <Compile Include="MyScript\HandMsg\A_handleMsg.cs" />
+    <Compile Include="MyScript\other\ClientTest.cs" />
+    <Compile Include="MyScript\other\ConnectMysql.cs" />
+    <Compile Include="MyScript\DataBase\I_readData.cs" />
+    <Compile Include="MyScript\DataBase\N_connectTodata.cs" />
+    <Compile Include="MyScript\DataBase\S_sql.cs" />
+    <Compile Include="MyScript\ServiceLog\I_RemoveClient.cs" />
+    <Compile Include="MyScript\SClient\I_sendBackClient.cs" />
+    <Compile Include="MyScript\Messages\A_baseMsg.cs" />
+    <Compile Include="MyScript\Messages\N_msg_canLoad.cs" />
+    <Compile Include="MyScript\Messages\N_msg_clientName.cs" />
+    <Compile Include="MyScript\Messages\N_msg_helloToServer.cs" />
+    <Compile Include="MyScript\Messages\N_msg_helloToServer_back.cs" />
+    <Compile Include="MyScript\Messages\N_msg_serverClosed.cs" />
+    <Compile Include="MyScript\Messages\N_msg_userExit.cs" />
+    <Compile Include="MyScript\Messages\N_msg_userload.cs" />
+    <Compile Include="MyScript\other\MyJsonData.cs" />
+    <Compile Include="MyScript\SClient\N_client.cs" />
+    <Compile Include="MyScript\HandMsg\N_handleMsg.cs" />
+    <Compile Include="MyScript\HandMsg\N_handleMsg01.cs" />
+    <Compile Include="MyScript\other\N_testJson.cs" />
+    <Compile Include="MyScript\ServiceLog\ServerTest.cs" />
+    <Compile Include="MyScript\ServiceLog\S_ClientSocket.cs" />
+    <Compile Include="MyScript\ServiceLog\S_server_do.cs" />
+    <Compile Include="MyScript\ServiceLog\S_useMysql.cs" />
+    <Compile Include="MyScript\other\test_thread.cs" />
+    <Compile Include="MyScript\tools\Singleton.cs" />
+    <Compile Include="MyScript\DataBase\S_makeCmd.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testShutDownSocket\testHandleSql.cs" />
+    <Compile Include="testShutDownSocket\testShutdownSocket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
