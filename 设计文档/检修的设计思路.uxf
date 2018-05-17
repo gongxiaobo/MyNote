@@ -163,7 +163,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>860</x>
-      <y>460</y>
+      <y>480</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -308,10 +308,10 @@
       <x>800</x>
       <y>440</y>
       <w>80</w>
-      <h>50</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
