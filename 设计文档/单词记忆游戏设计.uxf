@@ -28,8 +28,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>40</y>
+      <x>310</x>
+      <y>0</y>
       <w>970</w>
       <h>390</h>
     </coordinates>
@@ -41,8 +41,8 @@ bg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>40</y>
+      <x>310</x>
+      <y>0</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -53,8 +53,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1070</x>
-      <y>40</y>
+      <x>1180</x>
+      <y>0</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -65,8 +65,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>90</y>
+      <x>670</x>
+      <y>50</y>
       <w>240</w>
       <h>40</h>
     </coordinates>
@@ -77,10 +77,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>360</x>
-      <y>130</y>
+      <x>470</x>
+      <y>100</y>
       <w>700</w>
-      <h>70</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>解释
 bg=orange</panel_attributes>
@@ -89,10 +89,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>360</x>
-      <y>200</y>
+      <x>470</x>
+      <y>250</y>
       <w>700</w>
-      <h>70</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes>例句
 bg=orange</panel_attributes>
@@ -101,8 +101,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>280</y>
+      <x>750</x>
+      <y>350</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -113,8 +113,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>480</y>
+      <x>310</x>
+      <y>440</y>
       <w>970</w>
       <h>390</h>
     </coordinates>
@@ -126,20 +126,20 @@ bg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>480</y>
+      <x>310</x>
+      <y>440</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>HOME
+    <panel_attributes>Back
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1070</x>
-      <y>480</y>
+      <x>1180</x>
+      <y>440</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -150,8 +150,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>630</x>
-      <y>550</y>
+      <x>740</x>
+      <y>510</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -162,8 +162,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
-      <y>830</y>
+      <x>700</x>
+      <y>790</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -174,8 +174,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>550</y>
+      <x>790</x>
+      <y>510</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -186,8 +186,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
-      <y>520</y>
+      <x>880</x>
+      <y>480</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -198,8 +198,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>510</y>
+      <x>640</x>
+      <y>470</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -210,8 +210,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>400</x>
-      <y>500</y>
+      <x>510</x>
+      <y>460</y>
       <w>600</w>
       <h>100</h>
     </coordinates>
@@ -222,8 +222,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>670</y>
+      <x>680</x>
+      <y>630</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -234,8 +234,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>670</y>
+      <x>720</x>
+      <y>630</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -246,8 +246,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
-      <y>670</y>
+      <x>760</x>
+      <y>630</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -258,8 +258,177 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>690</x>
-      <y>670</y>
+      <x>800</x>
+      <y>630</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>210</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>PRACTISE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>860</y>
+      <w>970</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>
+fg=light_gray
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>860</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Back
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>860</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>VOICE
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>930</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>to
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>1210</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Next
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>930</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>like
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>910</x>
+      <y>890</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>eat
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>890</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>I
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>510</x>
+      <y>880</y>
+      <w>600</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>碎片区域
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>1050</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>1050</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>1050</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>1050</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
