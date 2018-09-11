@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43be731a736f8340bf2746fa920e205, type: 3}
+  m_Name: mat_data_01
+  m_EditorClassIdentifier: 
+  m_materials:
+  - m_name: green
+    m_material: {fileID: 2100000, guid: 34b5c1125dec67742850d970d296ad30, type: 2}
+  - m_name: blue
+    m_material: {fileID: 2100000, guid: 7ddc055590998db46b311add71addb85, type: 2}
+  - m_name: red
+    m_material: {fileID: 2100000, guid: 83d4903059e103941bc298dc093acbfc, type: 2}
+  - m_name: yellow
+    m_material: {fileID: 2100000, guid: f0d738547ebe52c4c8b12f7547d6a613, type: 2}
