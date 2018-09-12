@@ -184,7 +184,13 @@ public class N_CaculatePointHard : AB_CaculatePointHard
                     t_checkNormalStart = t_normals[i];
                }
                if (i == (t_CheckNormalID + 5))
-               {
+               {//下一阶段的开点的法线
+                    //在跳转到下一个阶段检查时，要检查现在的法线方向和上一个阶段的法线是否反向，如果反向，旋转当前的副切线
+                    if (Vector3.Dot(t_checkNormalStart, t_normals[i]) <= -1f)
+                    {//法线反向了,需要把这个点的副切线反向,再计算法线，旋转
+                         t_binormals[i] *= -1f;
+                         fnp_getRotation(t_binormals[i], t_tangents[i], i, ref t_binormals, ref t_normals, ref t_roatation);
+                    }
                     t_CheckNormalID = i;
                     t_checkNormalStart = t_normals[i];
                }
@@ -207,12 +213,12 @@ public class N_CaculatePointHard : AB_CaculatePointHard
                #endregion
 
 
-               //ShowLineInEditor.Instance.fn_PutInDot(i.ToString(), new Vector3[2] { _points[i],
-               //      t_binormals[i]*0.1f+_points[i] }, Color.yellow);
-               //ShowLineInEditor.Instance.fn_PutInDot(i.ToString() + "tang", new Vector3[2] { _points[i],
-               //     t_tangents[i]*0.1f+_points[i] }, Color.red);
-               //ShowLineInEditor.Instance.fn_PutInDot(i.ToString() + "normal", new Vector3[2] { _points[i],
-               //     t_normals[i]*0.1f+_points[i] }, Color.blue);
+               ShowLineInEditor.Instance.fn_PutInDot(i.ToString(), new Vector3[2] { _points[i],
+                     t_binormals[i]*0.1f+_points[i] }, Color.yellow);
+               ShowLineInEditor.Instance.fn_PutInDot(i.ToString() + "tang", new Vector3[2] { _points[i],
+                    t_tangents[i]*0.1f+_points[i] }, Color.red);
+               ShowLineInEditor.Instance.fn_PutInDot(i.ToString() + "normal", new Vector3[2] { _points[i],
+                    t_normals[i]*0.1f+_points[i] }, Color.blue);
           }
 
           _roatation = t_roatation;
