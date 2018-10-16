@@ -1,0 +1,6 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2601,on,,在十千伏控制房中找到低压配电柜1，合并断路器Q1,debug_s17_step_c_ 1,,
+2,2,2602,on,,合并断路器QF1,debug_s17_step_c_ 2,,
+3,3,2603,on,,合并断路器QF2,debug_s17_step_c_ 3,,
+4,4,2517,on,,在VFD房间找到综合控制柜，查看柜门上的电源指示灯是否点亮,debug_s17_step_c_ 4,,

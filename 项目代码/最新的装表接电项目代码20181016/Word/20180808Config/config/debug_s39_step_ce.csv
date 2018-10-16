@@ -1,0 +1,10 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,4024,havepart,,拿起盘根组件放入到机器上黄色指示点，然后拖动零件到正确位置,debug_s39_step_c 1,,
+2,2,4033,2,light,拿起柱塞放入到机器上的黄色指示点，在使用放入工具把柱塞顶入机器内部正确位置,debug_s39_step_c 2,,
+3,2,4023,havepart,,,,,
+4,3,4033,0,,拿出工具，手柄碰触工具一段时间后可以取出工具,debug_s39_step_c 3,,
+5,4,4022,havepart,,放入胶圈,debug_s39_step_c 4,,
+6,5,4021,havepart,,放入柱塞压帽,debug_s39_step_c 5,,
+7,6,4019,havepart,,放入上方卡箍,debug_s39_step_c 6,,
+8,7,4020,havepart,,放入下放卡箍,debug_s39_step_c 7,,

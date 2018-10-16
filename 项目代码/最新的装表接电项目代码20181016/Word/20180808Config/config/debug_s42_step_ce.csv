@@ -1,0 +1,8 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,4015,havepart,,拿起排出阀阀座放入到机器上的黄色指示点，然后拖动零件到正确位置,debug_s42_step_c 1,,
+2,2,4016,havepart,,拿起排出阀弹簧放入到机器上的黄色指示点，然后拖动零件到正确位置,debug_s42_step_c 2,,
+3,3,4017,havepart,,拿起排出阀压盖放入到机器上的黄色指示点，然后拖动零件到正确位置,debug_s42_step_c 3,,
+4,4,4018,havepart,,拿起排出阀压帽放入到机器上的黄色指示点，然后找到大内六角工具顺时针旋转压帽,debug_s42_step_c 4,,
+5,4,4009,2,light,,,,
+6,5,4009,0,,取出大内六角工具，碰触工具一段时间后可以取出工具,debug_s41_step_c 8,,

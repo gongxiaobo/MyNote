@@ -1,0 +1,5 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2422,1,light,点击act键，切换至当前故障界面,debug_s22_step_c_ 1,,
+2,2,2422,2,light,点击重置键，将当前故障信息复位,debug_s22_step_c_ 2,,
+3,3,2420,1,light,返回信号界面，观察故障信息是否消失并回到正常显示，如果故障再次出现，请寿县排除故障后在进行复位操作,debug_s22_step_c_ 3,,

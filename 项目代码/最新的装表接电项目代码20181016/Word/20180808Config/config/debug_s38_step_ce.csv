@@ -1,0 +1,9 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,4019,nopart,,取下上方的卡箍,debug_s38_step_c 1,,
+2,2,4020,nopart,,取下下方的卡箍,debug_s38_step_c 2,,
+3,3,4021,nopart,,卸下柱塞压帽,debug_s38_step_c 3,,
+4,4,4022,nopart,,取下胶圈,debug_s38_step_c 4,,
+5,5,4023,nopart,,使用捶打拉出器工具拉出柱塞，拉出柱塞后，拿出工具，手柄碰触工具一段时间后可以取出工具，然后把阀座拉出器放在地面,debug_s38_step_c 5,,
+6,5,4007,0,,,,,
+7,6,4024,nopart,,取下盘根组件,debug_s38_step_c 6,,

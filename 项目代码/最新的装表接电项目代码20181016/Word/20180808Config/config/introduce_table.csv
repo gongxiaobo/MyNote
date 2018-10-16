@@ -1,0 +1,9 @@
+﻿编号,机器编号,中文名称,中文介绍,中文语音文件,外文名称,外文介绍,外文语音
+m_id,m_macID,m_ch_name,m_ch_txt,m_ch_voice,m_o_name,m_o_txt,m_o_voice
+1,1,MCC柜,这是mcc柜,introduce_c_ 1,,,
+2,2,2p直流屏,这是2p直流屏,introduce_c_ 2,,,
+3,3,主控柜,这是主控柜,introduce_c_ 3,,,
+4,4,燃气发电机,这是燃气发电机,introduce_c_ 4,,,
+5,5,VFD综合控制柜,这是VFD综合控制柜,introduce_c_ 5,,,
+6,6,变频传动单元,这是变频传动单元,introduce_c_ 6,,,
+7,7,泵的检修,这是泵,introduce_c_ 6,,,

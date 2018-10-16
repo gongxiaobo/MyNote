@@ -1,0 +1,10 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,315,on,,打开主控柜柜门，合上QF1，QF3，QF4，QF5，QF6断路器,debug_s4_step_c_ 1,,
+2,1,316,on,,,,,
+3,1,317,on,,,,,
+4,1,318,on,,,,,
+5,1,319,on,,,,,
+6,2,320,on,,合上QF10断路器,debug_s4_step_c_ 2,,
+7,3,302,off,,关闭主控柜柜门,debug_s4_step_c_ 3,,
+8,4,310,off,,急停按钮复位,debug_s4_step_c_ 4,,

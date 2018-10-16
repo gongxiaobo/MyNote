@@ -1,0 +1,15 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2512,on,,在VFD房里找到综合控制柜，打开柜门，合上柜里断路器QF5,debug_s16_step_c_ 1,,
+2,1,2501,on,light,,,,
+3,2,2502,on,,请把开关S1拨至ON 状态,debug_s16_step_c_ 2,,
+4,3,2510,on,,合上柜里断路器QF3断路器,debug_s16_step_c_ 3,,
+5,4,2507,on,,检查直流电源模块U1的运作指示灯是否点亮，检查PLC模块是否运行，运行正常时PLC的指示灯会绿色闪烁,debug_s16_step_c_ 4,,
+6,4,2506,on,,,,,
+7,4,2505,on,,,,,
+8,5,2509,on,,合断路器QF2和QF4 ,debug_s16_step_c_ 5,,
+9,5,2511,on,,,,,
+10,6,2514,on,light,按下继电器KA1的强制按钮，观察T1 变压器顶部风机是否正常运转，正常情况下风机应启动并有风声,debug_s16_step_c_ 6,,
+11,7,2508,on,, 合断路器QF1,debug_s16_step_c_ 7,,
+12,8,2513,on,, 合断路器QF6,debug_s16_step_c_ 8,,
+13,9,2515,on,,观察检修插线板电源指示灯是否亮,debug_s16_step_c_ 9,,

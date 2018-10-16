@@ -1,0 +1,5 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2420,4,light,点击ref键，设置转速控制模式,debug_s25_step_c_ 1,,
+2,2,10011,600,,点击上下单双三角箭头将转速设置为600rpm，设定值实时生效，无需确认。,debug_s25_step_c_ 2,,
+3,3,2420,1,light,点击act、par、func、drive任意按钮切换回默认显示状态,debug_s25_step_c_ 3,,

@@ -1,0 +1,10 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2814,on,light,真空断路器分闸，检查真空断路器状态,debug_s29_step_c_ 1,,
+2,2,2304,1,light,,,,
+3,3,2812,on,,隔离开关合闸，检查隔离开关状态,debug_s29_step_c_ 2,,
+4,4,2305,1,light,,,,
+5,5,2813,on,light,储能旋转开关旋至储能,debug_s29_step_c_ 3,,
+6,6,2305,1,light,,,,
+7,7,2815,on,,真空断路器合闸，检查真空断路器状态,debug_s29_step_c_ 4,,
+8,8,2304,1,light,,,,

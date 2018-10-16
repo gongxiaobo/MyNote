@@ -1,0 +1,11 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2906,0,,插入地刀摇柄逆时针旋转地刀，断开接地开关,debug_s31_step_c_ 1,,
+2,2,2907,1,light,取出地刀手柄,debug_s31_step_c_ 2,,
+3,3,2908,on,light,打开柜门,debug_s31_step_c_ 8,,
+4,4,2904,on,,把手车左右侧闭锁机械连杆推入到柜柱里,debug_s31_step_c_ 3,,
+5,4,2905,on,,,,,
+6,5,2908,off,light,关闭柜门,debug_s31_step_c_ 4,,
+7,6,2902,1,,拿起手车摇把，在柜门的左侧孔中插入摇把，然后顺时针旋转大约7圈,debug_s31_step_c_ 5,,
+8,7,2903,1,light,取出摇把,debug_s31_step_c_ 6,,
+9,8,2901,2,,操作合闸旋钮到合闸位,debug_s31_step_c_ 7,,

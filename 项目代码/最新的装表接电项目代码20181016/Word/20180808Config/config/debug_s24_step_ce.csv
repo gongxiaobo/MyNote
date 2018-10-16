@@ -1,0 +1,11 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2423,1,light,点击par键，切换至参数设置界面,debug_s24_step_c_ 1,,
+2,2,2419,10009,light,选择第16组参数的第二个成员parameter lock,debug_s24_step_c_ 2,,
+3,3,2423,2,light,点击回车键进行参数设置,debug_s24_step_c_ 3,,
+4,4,10009,lock,,点击上下单箭头选择lock模式,debug_s24_step_c_ 4,,
+5,5,2423,3,light,点击回车键确定参数修改，此时各参数组参数均已锁定，不能更改,debug_s24_step_c_ 5,,
+6,6,2419,10010,light,选择第16组参数的第3个成员passcode,debug_s24_step_c_ 6,,
+7,7,2423,2,light,点击回车键进行参数设置,debug_s24_step_c_ 7,,
+8,8,10010,358,,点击上下单箭头和双箭头确定输入的三位密码358,debug_s24_step_c_ 8,,
+9,9,2423,3,light,点击回车键解锁，此时各参数解锁。,debug_s24_step_c_ 9,,

@@ -1,0 +1,23 @@
+﻿组名称编号,组名称
+m_groupname,m_name
+1,a1
+2,a2
+3,a3
+4,a4
+5,a5
+6,a6
+7,a7
+8,a8
+9,a9
+10,a10
+11,a11
+12,a12
+13,a13
+14,a14
+15,a15
+16,parameter lock
+1000,rpm
+1001,ACS5000
+1002,LAST FAULT
+1003,StateINU
+1004,controltype

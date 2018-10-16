@@ -1,0 +1,11 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2901,0,,操作合闸旋钮到分闸位,debug_s32_step_c_ 1,,
+2,2,2902,0,,拿起手车摇把，在柜门的左侧孔中插入摇把，然后逆时针旋转大约7圈,debug_s32_step_c_ 2,,
+3,3,2903,1,light,取出摇把,debug_s32_step_c_ 3,,
+4,4,2908,on,light,打开柜门,debug_s32_step_c_ 7,,
+5,5,2904,off,,把手车左右侧闭锁机械连杆拉出到手车里,debug_s32_step_c_ 4,,
+6,5,2905,off,,,,,
+7,6,2908,off,light,关闭柜门,debug_s32_step_c_ 8,,
+8,7,2906,1,,插入地刀摇柄顺时针旋转地刀，连接接地开关,debug_s32_step_c_ 5,,
+9,8,2907,1,light,取出地刀,debug_s32_step_c_ 6,,

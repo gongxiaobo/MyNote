@@ -1,0 +1,7 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,2423,1,light,点击par键，进入参数设置模式,debug_s23_step_c_ 1,,
+2,2,2419,10006,light,通过点击上下双箭头选择第二组参数，点击上下单箭头选择第三项,debug_s23_step_c_ 2,,
+3,3,2423,2,light,点击回车键进行参数设置,debug_s23_step_c_ 3,,
+4,4,10006,stop,,将dc voltage one up参数的值设置为stop,debug_s23_step_c_ 4,,
+5,5,2423,3,light,点击回车键进行参数修改,debug_s23_step_c_ 5,,

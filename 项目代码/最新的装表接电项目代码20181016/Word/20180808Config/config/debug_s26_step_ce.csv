@@ -1,0 +1,8 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,10016,L,,变频传动器正常断电，首先通过cdp盘选择本地模式,debug_s26_step_c_ 1,,
+2,2,2717,on,,确认cdp盘state inu状态为readyrun，按下supplyoff按钮，断开传动单元电源，主回路断路器跳开，等到supply off指示灯常亮，cdp盘显示为readyon时拉出主回路断路器，锁定并贴上标签,debug_s26_step_c_ 2,,
+3,2,10015,ReadyOn,light,,,,
+4,3,2720,on,,待接地指示灯亮起，将接地开关接地，cdp屏显示DCGndN Open、NotReadyOn、INUis not ready,debug_s26_step_c_ 3,,
+5,3,10015,DGGndNOpen、NotReadyOn、INUsNotRdy,,,,,
+6,4,2508,off,,关闭综合控制箱的QF1断路器,debug_s26_step_c_ 4,,

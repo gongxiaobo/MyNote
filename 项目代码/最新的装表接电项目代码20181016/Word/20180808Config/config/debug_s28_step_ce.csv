@@ -1,0 +1,8 @@
+﻿编号,步骤,item编号,检查状态,检查条件,中文描述,中文语音,英文描述,英文语音
+m_index,m_step,m_id,m_state,m_condition,m_ch_txt,m_ch_voice,m_en_txt,m_en_voice
+1,1,10016,L,light,变频传动单元上电操作，首先操作cdp盘，选择本地模式,debug_s28_step_c_ 1,,
+2,2,2422,2,,点击复位按钮，清空当前故障信息，CDP盘上显示ReadyOn,debug_s28_step_c_ 2,,
+3,2,10015,ReadyOn,light,,,,
+4,3,2721,on,,按下柜门上的On按键，直流回路开始充电,debug_s28_step_c_ 3,,
+5,3,10015,Charging、AuxillaryOn,light,,,,
+6,4,10016,R,,按下远程本地按键，恢复到远程模式，操作结束。,debug_s28_step_c_ 4,,
